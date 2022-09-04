@@ -1,0 +1,140 @@
+body{
+	background: radial-gradient(#565353, #000);
+	background-repeat: no-repeat;
+	width: 1300px;
+	height: 1200px;
+	overflow-x: hidden;
+}
+header{
+	margin: 0;
+	color: #fff;
+	font-family: sans-serif;
+}
+ul{
+	display: inline-flex;
+	list-style: none;
+	margin: 30px 0 0 320px;
+	font-size: 13px;
+	/*font-weight: bold;*/
+}
+li{
+	margin: 10px 50px 20px 50px ;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+#sider{
+	position: absolute;
+	width: 110px;
+	height: 722px;
+	background: #bdc6cd;
+	margin: -90px 0 0 -10px;
+}
+#side{
+	font-size: 15px;
+	letter-spacing: 15px;
+	font-weight: bolder;
+	font-family: sans-serif;
+	position: absolute;
+	transform: rotate(90deg);
+	margin: -200px 0 0 -158px;
+}
+img{
+	margin: 100px 0 0 580px;
+	transform: rotate(-18deg);
+}
+#shadow{
+	width: 590px;
+	height: 70px;
+	background: #fff;
+	margin:45px 0 0 560px;
+	border-radius: 90%;
+	background: radial-gradient(#000, #565353);
+	filter: blur(22px);
+}
+.glass{
+	position: absolute;
+
+	background: rgba(255, 255, 255, 0.1);
+	margin: -150px 0 0 500px;
+	border-radius: 100px;
+	backdrop-filter: blur(13px);
+
+	filter: blur(3px);
+
+	border: 1px solid rgba(255,255,255,0.5);
+	border-right: 1px solid rgba(255,255,255,0.2);
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+#gl1{
+	margin: -388px 0 0 1020px;
+	width: 170px;
+	height: 170px;
+		animation: animate 10s linear infinite;
+	animation-delay: calc(-1s * var(--i));
+}
+@keyframes animate
+{
+	0%,100%
+	{
+		transform: translateY(-40px);
+	}
+	50%
+	{
+		transform: translateX(40px);
+	}
+
+}
+#gl2{
+	margin: -220px 0 0 700px;
+	width: 150px;
+	height: 150px;
+	animation: animate 10s forwards infinite; 
+	animation-delay: calc(-1s * var(--i));
+}
+#textbox{
+	color: #fff;
+	font-family: sans-serif;
+	margin: 0 0 0 160px;
+}
+h1{
+	font-weight: bolder;
+	font-size: 110px;
+	margin: -510px 0 0 0;
+}
+#txt1{
+	font-size: 33px;
+	font-kerning: auto;
+	letter-spacing: 5px;
+	margin: 10px 0 0 0 ;
+}
+#txt2{
+	font-size: 33px;
+	letter-spacing: 5px;
+	margin: 20px 0 0 0 ;
+}
+#txt3{
+	font-size: 14px;
+	margin: 20px 0 0 0 ;
+	width: 400px;
+	line-height: 30px;
+	color: #d7d6d9;
+}
+button{
+	width: 160px;
+	height: 50px;
+	margin: 40px 0 0 160px;
+	border-radius: 30px;
+	border: 0;
+	background: #d7d6d9;
+	font-family: sans-serif;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+#bg{
+	width: 1300px;
+	height: 900px;
+	background: #fff;
+	margin: 100px 0 0 -20px ;
+}
